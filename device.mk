@@ -1,4 +1,4 @@
-DEVICE_PATH := device/lava/LXX503
+DEVICE_PATH := device/lava/LXX506
 
 # Soong namespace
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
@@ -93,4 +93,4 @@ PRODUCT_PACKAGES += \
 
 # Otacert
 PRODUCT_EXTRA_RECOVERY_KEYS += \
-    $(DEVICE_PATH)/security/LXX503_releasekey
+    $(DEVICE_PATH)/security/LXX506_releasekey

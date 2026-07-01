@@ -1,6 +1,6 @@
 set -e
 
-DEVICE=LXX503
+DEVICE=LXX506
 VENDOR=lava
 
 # Load extract_utils and do some sanity checks

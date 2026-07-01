@@ -1,9 +1,9 @@
-# # OrangeFox Device Tree for LAVA BLAZE 5G (LXX503)
+# # OrangeFox Device Tree for LAVA BLAZE 5G (LXX506)
 
 <img src="https://wiki.orangefox.tech/banner.svg" width="500">
 
-[![Orangefox Recovery Build](https://github.com/ayusc/orangefox_device_lava_LXX503/actions/workflows/ofox.yml/badge.svg?event=workflow_dispatch)](https://github.com/ayusc/orangefox_device_lava_LXX503/actions/workflows/ofox.yml)
-[![TWRP Recovery Build](https://github.com/ayusc/orangefox_device_lava_LXX503/actions/workflows/twrp.yml/badge.svg?event=workflow_dispatch)](https://github.com/ayusc/orangefox_device_lava_LXX503/actions/workflows/twrp.yml)
+[![Orangefox Recovery Build](https://github.com/ayusc/orangefox_device_lava_LXX506/actions/workflows/ofox.yml/badge.svg?event=workflow_dispatch)](https://github.com/ayusc/orangefox_device_lava_LXX506/actions/workflows/ofox.yml)
+[![TWRP Recovery Build](https://github.com/ayusc/orangefox_device_lava_LXX506/actions/workflows/twrp.yml/badge.svg?event=workflow_dispatch)](https://github.com/ayusc/orangefox_device_lava_LXX506/actions/workflows/twrp.yml)
 
 > [!WARNING]
 > **Read Carefully !!!**<br>
@@ -26,7 +26,7 @@
 That's it! Orangefox should now be successfully installed on your device. It successfully replaced the stock recovery on the device.
 Now to access the recovery anytime press Vol UP + Power Key together and toggle the recovery option.
 
-![LXX503](https://fdn2.gsmarena.com/vv/pics/lava/lava-blaze-5g-01.jpg)
+![LXX506](https://fdn2.gsmarena.com/vv/pics/lava/lava-blaze-5g-01.jpg)
 
 |Basic               |Spec Sheet|
 |--                  |--                    |
@@ -39,5 +39,5 @@ Now to access the recovery anytime press Vol UP + Power Key together and toggle 
 |Memory              |4 / 6 GB RAM                                                     |
 |Android Version     |14 (UpsideDownCake)                                    |
 |Storage             |128GB |
-|Codename             |LXX503 |
+|Codename             |LXX506 |
 |Kernel               |4.19.191 #1 SMP PREEMPT|

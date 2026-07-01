@@ -1,4 +1,4 @@
-DEVICE_PATH := device/lava/LXX503
+DEVICE_PATH := device/lava/LXX506
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -158,7 +158,7 @@ TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file"
 TW_FORCE_CPUINFO_FOR_DEVICE_ID := true
 TW_NO_FASTBOOT_BOOT := true
-TW_DEVICE_VERSION := LXX503
+TW_DEVICE_VERSION := LXX506
 
 # Fastboot
 TW_INCLUDE_FASTBOOTD := true

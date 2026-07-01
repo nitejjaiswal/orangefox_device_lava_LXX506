@@ -76,9 +76,9 @@ jobs:
 
       - name: Clone Device Tree
         run: |
-          export DEVICE_TREE=https://github.com/ayusc/orangefox_device_lava_LXX503
+          export DEVICE_TREE=https://github.com/ayusc/orangefox_device_lava_LXX506
           export DEVICE_TREE_BRANCH=main
-          export DEVICE_PATH=device/lava/LXX503
+          export DEVICE_PATH=device/lava/LXX506
 
           cd ${GITHUB_WORKSPACE}/twrp
           git clone $DEVICE_TREE -b $DEVICE_TREE_BRANCH ./$DEVICE_PATH
@@ -87,7 +87,7 @@ jobs:
 
       - name: Building TWRP
         run: |
-          export DEVICE_NAME=LXX503
+          export DEVICE_NAME=LXX506
           export BUILD_TARGET=boot
           cd ${GITHUB_WORKSPACE}/twrp
           source build/envsetup.sh
@@ -106,19 +106,19 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            twrp/out/target/product/LXX503/twrp.img
-          name: TWRP Recovery for Lava Blaze 5G (LXX503)
+            twrp/out/target/product/LXX506/twrp.img
+          name: TWRP Recovery for Lava Blaze 5G (LXX506)
           tag_name: ${{ github.run_id }}
           body: |
             TWRP Recovery Build - Unofficial
             
             Device: Lava Blaze 5G
-            Codename: LXX503
+            Codename: LXX506
             Recovery Image: twrp.img
             
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: twrp-LXX503
-          path: twrp/out/target/product/LXX503/twrp.img
+          name: twrp-LXX506
+          path: twrp/out/target/product/LXX506/twrp.img
           retention-days: 30
